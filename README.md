@@ -20,8 +20,8 @@ Skeleton Starter for Meteor.js
 	│       		├── home.js
 	│       ├── main.html
 	├── lib
-	│   └── collections
 	│   └── router.js
+	├── collections
 	├── private
 	├── public
 	│   ├── fonts
