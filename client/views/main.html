@@ -47,8 +47,22 @@
 
 <template name="layout">
     {{> header}}
+    <div id="main">
+      {{>Template.dynamic template=content}}
+    </div>
+    {{> footer}}
+</template>
+
+<template name="home">
+  <h1>Home</h1>
 </template>
 
 <template name="header">
-    
+  <header>
+  </header>
+</template>
+
+<template name="footer">
+  <footer>
+  </footer>
 </template>

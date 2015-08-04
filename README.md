@@ -1,7 +1,6 @@
 Skeleton Starter for Meteor.js
 
 ```sh
-	├── main.js
 	├── mobile-config.js
 	├── LICENSE
 	├── README.md
@@ -9,19 +8,23 @@ Skeleton Starter for Meteor.js
 	├── client
 	│   ├── helpers
 	│   ├── i18n
-	│   ├── stylesheets
-	│   		├── util
-	│   				├── reset.import.less
-	│   		├── main.less
-	│   └── templates
-	│       ├── home
-	│       		├── home.html
-	│       		├── home.import.less
-	│       		├── home.js
+	│   ├── styles
+	│   		├── includes
+	│   				├── _breakpoints.styl
+	│   				├── _mixins.styl
+	│   				├── _palette.styl
+	│   				├── _settings.styl
+	│   				├── _typography.styl
+	│   				├── _variables.styl
+	│   		├── main.styl
+	│   └── views
 	│       ├── main.html
+	│       ├── main.js
 	├── lib
-	│   └── router.js
+	│   └── routers	
+	│   		└── router.js
 	├── collections
+	├── packages
 	├── private
 	├── public
 	│   ├── fonts
