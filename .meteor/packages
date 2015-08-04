@@ -5,15 +5,16 @@
 # but you can also edit it by hand.
 
 meteor-platform
-underscore
-iron:router
-jquery
 meteorhacks:fast-render
 mike:mocha
-nemo64:bootstrap
 gadicohen:sitemaps
 spiderable
-fortawesome:fontawesome
 aldeed:collection2
 aldeed:autoform
 aldeed:simple-schema
+girassolbit:meteor-kouto-swiss
+kadira:flow-router
+semantic:ui
+flemay:less-autoprefixer
+stevezhu:lodash
+react
